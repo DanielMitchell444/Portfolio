@@ -1,0 +1,321 @@
+
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+/*CSS FOR CONTENT */
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.content h1{
+    font-size: 36px;
+    color: #0070f3;
+    text-align: center;
+
+}
+.content p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+/*CSS FOR PROJECT CARD */
+
+
+.project-card h3{
+color: #0070f3;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: repeat();
+}
+.project-card{
+background-color: white;
+
+/* Add border */
+border: 1px solid #eaeaea;
+
+/* Add space between the border and the content */
+padding: 1.5em;
+
+border-radius: 12px;
+text-align: center;
+
+margin: 20px;
+
+width: 500px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.project-card:hover{
+   border: 1px solid #0070f3 
+}
+
+
+.icon{
+ border: none;
+}
+
+.button-content{
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+}
+
+
+
+button{
+    background-color: #0070f3;
+    color: white;
+    height: 30px;
+    padding: 2em, 4em;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button:hover{
+ background-color: #eaeaea;
+ color: #0070f3;
+}
+
+
+/*css for links */
+
+.link-list{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+@media(min-width: 400px){
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-card{
+     width: 400px;
+    }
+}
+
+@media(min-width: 800px){
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .project-card{
+     width: 500px;
+    }
+}
+
+@media(min-width: 390px){
+ .project-card{
+    width: 300px;
+ }
+}
+
+@media(min-width: 375px){
+    .project-card{
+        width: 300px;
+    }
+
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(min-width: 425){
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content2{
+        width: 350px;
+    }
+}
+
+@media(min-width: 414px){
+    .project-card{
+        width: 200px;
+    }
+}
+
+@media(min-width: 280px){
+  .project-card{
+    width: 300px;
+  } 
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+
+  @media(min-width: 320px){
+    .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .project-card{
+        width: 230px;
+    }
+    button{
+    height:40px;
+    }
+  }
+
+  @media(min-width: 768px){
+    
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.content h1{
+    font-size: 36px;
+    color: #0070f3;
+    text-align: center;
+
+}
+.content p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+/*CSS FOR PROJECT CARD */
+
+
+.project-card h3{
+color: #0070f3;
+}
+
+.content2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+.project-card{
+background-color: white;
+
+/* Add border */
+border: 1px solid #eaeaea;
+
+/* Add space between the border and the content */
+padding: 1.5em;
+
+border-radius: 12px;
+text-align: center;
+
+margin: 20px;
+
+width: 500px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.project-card:hover{
+   border: 1px solid #0070f3 
+}
+
+
+.icon{
+ border: none;
+}
+
+.button-content{
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+}
+
+
+
+button{
+    background-color: #0070f3;
+    color: white;
+    height: 30px;
+    padding: 2em, 4em;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button:hover{
+ background-color: #eaeaea;
+ color: #0070f3;
+}
+
+
+/*css for links */
+
+.link-list{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+  }
+
+  @media(min-width: 600px){
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+
+  @media(min-width: 1200px){
+    .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+  }
+
